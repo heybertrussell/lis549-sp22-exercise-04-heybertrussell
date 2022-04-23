@@ -32,7 +32,7 @@ h2{
   padding: 1rem;
 }
 
-p,dl{
+p, dl{
   margin-top: 0;
   margin-bottom: 1rem;
 } /* double check */
@@ -52,7 +52,7 @@ nav{
   
 }
 
-nav,li{
+nav li{
   display: inline;
 }
 
@@ -76,11 +76,63 @@ nav a:hover{
 
 /* –––– Header –––– */
 
+header{
+  color: white;
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+  background-image: url("../img/paul-gilmore-145802-unsplash.jpg");
+  background-size: cover;
+  background-color: #0084Af;
+}
 
+.motto{
+  font-style: italic;
+  font-size: 1.25rem;
+}
 
 /* –––– Menu –––– */
 
+#menu{
+  background-color: #f0f0f0;
+  line-height: 1.5;
+}
 
+main dl dt{
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+main dl dd{
+  margin: 0;
+}
+
+main img{
+  height: 200px;
+  border-radius: 15px;
+}
+
+/* About */
+
+#about{
+  background-color: #e0e0e0;
+  line-height: 1.5;
+}
 
 /* Footer */
 
+footer{
+  color: white;
+  background-color: #3E1305;
+  margin: 0; /* check */
+  line-height: 1.25;
+}
+
+footer a:link{
+  color: white;
+  text-decoration: none;
+}
+
+footer p:last-child{
+  padding-top: 8px;
+}
