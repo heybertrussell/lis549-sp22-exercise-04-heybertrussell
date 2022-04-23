@@ -86,7 +86,7 @@ header{
   background-color: #0084Af;
 }
 
-.motto{
+header .motto {
   font-style: italic;
   font-size: 1.25rem;
 }
@@ -125,7 +125,10 @@ main img{
 footer{
   color: white;
   background-color: #3E1305;
-  margin: 0; /* check */
+}
+
+footer div p{
+  margin:0;
   line-height: 1.25;
 }
 
@@ -134,6 +137,6 @@ footer a:link{
   text-decoration: none;
 }
 
-footer p:last-child{
+footer div p:last-child{
   padding-top: 8px;
 }
