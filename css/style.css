@@ -82,6 +82,7 @@ header{
   padding-bottom: 1rem;
   background-image: url("../img/paul-gilmore-145802-unsplash.jpg");
   background-size: cover;
+  background-position: center;
   background-color: #0084Af;
 }
 
