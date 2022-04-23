@@ -1,0 +1,86 @@
+/* –––– General Fonts –––– */
+
+body {
+    font-family: "Nunito Sans", "Arial", "sans serif";
+    size:16px;
+  }
+
+h1, h2{  
+  font-family: "Raleway", "Helvetica", "sans serif";
+  font-weight: 300;
+}
+
+h1{
+  font-size: 3.5rem;
+}
+
+h2{
+  font-size: 2.5rem;
+}
+
+.material-icons{
+  position:relative;
+  top:5px;
+}
+
+/* ––––– Page Spacing –––––– */
+
+.container{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+p,dl{
+  margin-top: 0;
+  margin-bottom: 1rem;
+} /* double check */
+
+
+/* –––– Nav Bar –––– */
+
+nav{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #2C96BF;
+  padding: .5rem;
+  padding-bottom: 1rem;
+  color: white;
+  
+}
+
+nav,li{
+  display: inline;
+}
+
+nav,ul{
+  padding: 0;
+}
+
+nav ul li{
+  margin: 0rem 1rem;
+}
+nav a:link{
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover{
+  color: #F0F0F0;
+  border-bottom: .8rem solid;
+  transition: .25s ease-out;
+}
+
+/* –––– Header –––– */
+
+
+
+/* –––– Menu –––– */
+
+
+
+/* Footer */
+
