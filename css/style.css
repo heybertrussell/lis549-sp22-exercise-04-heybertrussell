@@ -8,7 +8,8 @@ body {
 h1, h2{  
   font-family: "Raleway", "Helvetica", "sans serif";
   font-weight: 300;
-  margin:0;
+  margin-top: 0;
+  margin-bottom: .5rem;
 }
 
 h1{
@@ -38,9 +39,7 @@ p, dl{
   margin-bottom: 1rem;
 }
 
-header h1{
-  margin: 0;
-}
+
 /* double check */
 
 /* –––– Nav Bar –––– */
@@ -100,7 +99,6 @@ header .motto {
 
 #menu{
   background-color: #f0f0f0;
-  line-height: 1.5;
 }
 
 main dl dt{
