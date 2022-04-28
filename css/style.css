@@ -8,6 +8,7 @@ body {
 h1, h2{  
   font-family: "Raleway", "Helvetica", "sans serif";
   font-weight: 300;
+  margin:0;
 }
 
 h1{
@@ -35,8 +36,12 @@ h2{
 p, dl{
   margin-top: 0;
   margin-bottom: 1rem;
-} /* double check */
+}
 
+header h1{
+  margin: 0;
+}
+/* double check */
 
 /* –––– Nav Bar –––– */
 
