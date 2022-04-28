@@ -1,40 +1,42 @@
 /* –––– General Fonts –––– */
 
 body {
-    font-family: "Nunito Sans", "Arial", "sans serif";
-    size:16px;
-  }
+  font-family: "Nunito Sans", "Arial", "sans serif";
+  size: 16px;
+}
 
-h1, h2{  
+h1,
+h2 {
   font-family: "Raleway", "Helvetica", "sans serif";
   font-weight: 300;
   margin-top: 0;
   margin-bottom: .5rem;
 }
 
-h1{
+h1 {
   font-size: 3.5rem;
 }
 
-h2{
+h2 {
   font-size: 2.5rem;
 }
 
-.material-icons{
-  position:relative;
-  top:5px;
+.material-icons {
+  position: relative;
+  top: 5px;
 }
 
 /* ––––– Page Spacing –––––– */
 
-.container{
+.container {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
   padding: 1rem;
 }
 
-p, dl{
+p,
+dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -44,7 +46,7 @@ p, dl{
 
 /* –––– Nav Bar –––– */
 
-nav{
+nav {
   position: fixed;
   top: 0px;
   left: 0px;
@@ -53,26 +55,28 @@ nav{
   padding: .5rem;
   padding-bottom: 1rem;
   color: white;
-  
+
 }
 
-nav li{
+nav li {
   display: inline;
 }
 
-nav,ul{
+nav ul {
   padding: 0;
+  margin: 0;
 }
 
-nav ul li{
+nav ul li {
   margin: 0rem 1rem;
 }
-nav a:link{
+
+nav a:link {
   text-decoration: none;
   color: black;
 }
 
-nav a:hover{
+nav a:hover {
   color: #F0F0F0;
   border-bottom: .8rem solid;
   transition: .25s ease-out;
@@ -80,7 +84,7 @@ nav a:hover{
 
 /* –––– Header –––– */
 
-header{
+header {
   color: white;
   padding-top: 6rem;
   padding-bottom: 1rem;
@@ -97,49 +101,49 @@ header .motto {
 
 /* –––– Menu –––– */
 
-#menu{
+#menu {
   background-color: #f0f0f0;
 }
 
-main dl dt{
-  font-size: 1.25rem;
+main dl dt {
+  font-size: 125%;
   font-weight: bold;
   margin-top: 1rem;
 }
 
-main dl dd{
+main dl dd {
   margin: 0;
 }
 
-main img{
+main img {
   height: 200px;
   border-radius: 15px;
 }
 
 /* About */
 
-#about{
+#about {
   background-color: #e0e0e0;
   line-height: 1.5;
 }
 
 /* Footer */
 
-footer{
+footer {
   color: white;
   background-color: #3E1305;
 }
 
-footer div p{
-  margin:0;
+footer div p {
+  margin: 0;
   line-height: 1.25;
 }
 
-footer a:link{
+footer a:link {
   color: white;
   text-decoration: none;
 }
 
-footer div p:last-child{
+footer div p:last-child {
   padding-top: 8px;
 }
